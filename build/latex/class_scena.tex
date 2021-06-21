@@ -1,0 +1,95 @@
+\hypertarget{class_scena}{}\doxysection{Scena Class Reference}
+\label{class_scena}\index{Scena@{Scena}}
+
+
+Instancja macierzy jako Macierz3x3.  
+
+
+
+
+{\ttfamily \#include $<$Scena.\+hh$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dron}{Dron}} \& \mbox{\hyperlink{class_scena_ada56676388e5d02599894560d5abf822}{Wez\+Aktywnego\+Drona}} (int i)
+\begin{DoxyCompactList}\small\item\em Funkcja zwracajaca aktywnego drona. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_scena_a00bf24c293956cfbbfff567314874811}{Uzyj\+Aktynego\+Drona}} (int i)
+\begin{DoxyCompactList}\small\item\em Funkcja uzycia drona. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_scena_a8078001da38db152ad3c8b783831278e}{Ustaw\+Lacze}} (\mbox{\hyperlink{class_pz_g_1_1_lacze_do_g_n_u_plota}{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}} \&Lacze)
+\begin{DoxyCompactList}\small\item\em Funkcja ustawia zeminna Lacze. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_scena_a77e0e77a05868f2ad674c3c87bbe0c3b}{Poczatek}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja inicjuje stan poczatkowy na scenie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Instancja macierzy jako Macierz3x3. 
+
+Modeluje pojecie macierzy 3x3 jej główną cechą jest określony wymiar czyli 3. Z racji tego że chcemy pracować w 3 wymiarach w programie. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_scena_a77e0e77a05868f2ad674c3c87bbe0c3b}\label{class_scena_a77e0e77a05868f2ad674c3c87bbe0c3b}} 
+\index{Scena@{Scena}!Poczatek@{Poczatek}}
+\index{Poczatek@{Poczatek}!Scena@{Scena}}
+\doxysubsubsection{\texorpdfstring{Poczatek()}{Poczatek()}}
+{\footnotesize\ttfamily void Scena\+::\+Poczatek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja inicjuje stan poczatkowy na scenie. 
+
+Funkcja ustawia parametry poczatkowe dronow oraz je wyswietla. \mbox{\Hypertarget{class_scena_a8078001da38db152ad3c8b783831278e}\label{class_scena_a8078001da38db152ad3c8b783831278e}} 
+\index{Scena@{Scena}!UstawLacze@{UstawLacze}}
+\index{UstawLacze@{UstawLacze}!Scena@{Scena}}
+\doxysubsubsection{\texorpdfstring{UstawLacze()}{UstawLacze()}}
+{\footnotesize\ttfamily void Scena\+::\+Ustaw\+Lacze (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_pz_g_1_1_lacze_do_g_n_u_plota}{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}} \&}]{Lacze }\end{DoxyParamCaption})}
+
+
+
+Funkcja ustawia zeminna Lacze. 
+
+Funkcja ustawia Lacze do gnuplota 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Lacze} & referencja do \mbox{\hyperlink{class_pz_g_1_1_lacze_do_g_n_u_plota}{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_scena_a00bf24c293956cfbbfff567314874811}\label{class_scena_a00bf24c293956cfbbfff567314874811}} 
+\index{Scena@{Scena}!UzyjAktynegoDrona@{UzyjAktynegoDrona}}
+\index{UzyjAktynegoDrona@{UzyjAktynegoDrona}!Scena@{Scena}}
+\doxysubsubsection{\texorpdfstring{UzyjAktynegoDrona()}{UzyjAktynegoDrona()}}
+{\footnotesize\ttfamily bool Scena\+::\+Uzyj\+Aktynego\+Drona (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Funkcja uzycia drona. 
+
+Funkcja animuje caly lot drona w sekwencji. Zakancza sie jezeli uzytkownik wpisze \char`\"{}\+N\char`\"{}. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em i} & zmienna int do wyboru drona \\
+\hline
+\mbox{\texttt{ out}}  & {\em true} & jezeli wszystko zadzialalo poprawnie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_scena_ada56676388e5d02599894560d5abf822}\label{class_scena_ada56676388e5d02599894560d5abf822}} 
+\index{Scena@{Scena}!WezAktywnegoDrona@{WezAktywnegoDrona}}
+\index{WezAktywnegoDrona@{WezAktywnegoDrona}!Scena@{Scena}}
+\doxysubsubsection{\texorpdfstring{WezAktywnegoDrona()}{WezAktywnegoDrona()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dron}{Dron}} \& Scena\+::\+Wez\+Aktywnego\+Drona (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Funkcja zwracajaca aktywnego drona. 
+
+Funkcja zwraca aktywnego drona 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em i} & zmienna int do wyboru drona \\
+\hline
+\mbox{\texttt{ out}}  & {\em Tab\+Dronow\mbox{[}i\mbox{]}} & referencja do zmiennej typu \mbox{\hyperlink{class_dron}{Dron}} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/bartek/\+Pulpit/zad5\+\_\+1-\/\+B\+Figaj/include/Scena.\+hh\item 
+/home/bartek/\+Pulpit/zad5\+\_\+1-\/\+B\+Figaj/src/\mbox{\hyperlink{_scena_8cpp}{Scena.\+cpp}}\end{DoxyCompactItemize}

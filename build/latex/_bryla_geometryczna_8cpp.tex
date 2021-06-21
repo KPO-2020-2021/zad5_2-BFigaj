@@ -1,0 +1,76 @@
+\hypertarget{_bryla_geometryczna_8cpp}{}\doxysection{/home/bartek/\+Pulpit/zad5\+\_\+1-\/\+B\+Figaj/src/\+Bryla\+Geometryczna.cpp File Reference}
+\label{_bryla_geometryczna_8cpp}\index{/home/bartek/Pulpit/zad5\_1-\/BFigaj/src/BrylaGeometryczna.cpp@{/home/bartek/Pulpit/zad5\_1-\/BFigaj/src/BrylaGeometryczna.cpp}}
+
+
+W tym pliku zdefiniowane sa funkcje i metody związane z klasa \mbox{\hyperlink{class_bryla_geometryczna}{Bryla\+Geometryczna}}.  
+
+
+{\ttfamily \#include \char`\"{}Bryla\+Geometryczna.\+hh\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_acc83f893ee18d954bdb15158a19f6f58}\label{_bryla_geometryczna_8cpp_acc83f893ee18d954bdb15158a19f6f58}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+K\+O\+R\+P\+US}~\char`\"{}bryly\+\_\+wzorcowe/szescian.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a5537f80dca537a729872a34d5bf9699e}\label{_bryla_geometryczna_8cpp_a5537f80dca537a729872a34d5bf9699e}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R1}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_abf27fd171b2c2937ab1b74972636aa29}\label{_bryla_geometryczna_8cpp_abf27fd171b2c2937ab1b74972636aa29}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R2}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a48814a17f9fabdd185bf8afc5f2c16c0}\label{_bryla_geometryczna_8cpp_a48814a17f9fabdd185bf8afc5f2c16c0}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R3}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_abc98a2598ec79b2dbc521c3ebc23d7ec}\label{_bryla_geometryczna_8cpp_abc98a2598ec79b2dbc521c3ebc23d7ec}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R4}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_ad2534ed842f6fe1e042733443edc6f72}\label{_bryla_geometryczna_8cpp_ad2534ed842f6fe1e042733443edc6f72}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+K\+O\+R\+P\+US}~\char`\"{}bryly\+\_\+wzorcowe/szescian.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a0b282682f610501daf6681482beeec05}\label{_bryla_geometryczna_8cpp_a0b282682f610501daf6681482beeec05}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R1}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a47e215ad803a76b225b823e03b4de4c2}\label{_bryla_geometryczna_8cpp_a47e215ad803a76b225b823e03b4de4c2}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R2}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a10c8b57e690dc351274331eff2433323}\label{_bryla_geometryczna_8cpp_a10c8b57e690dc351274331eff2433323}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R3}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a50973b3d307e2f0106f3d8ea3943d400}\label{_bryla_geometryczna_8cpp_a50973b3d307e2f0106f3d8ea3943d400}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+R\+O\+B\+O\+C\+Z\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R4}~\char`\"{}bryly\+\_\+wzorcowe/graniastoslup6.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a6e3c7e6d1a9951c3283dd637275d64e6}\label{_bryla_geometryczna_8cpp_a6e3c7e6d1a9951c3283dd637275d64e6}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+K\+O\+R\+P\+US}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron1\+\_\+\+Korpus.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a006a9471b4119eb1bec2a292c4315acd}\label{_bryla_geometryczna_8cpp_a006a9471b4119eb1bec2a292c4315acd}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R1}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron1\+\_\+\+Rotor1.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_ac12a91e7d228562853617e2c0ea678d1}\label{_bryla_geometryczna_8cpp_ac12a91e7d228562853617e2c0ea678d1}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R2}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron1\+\_\+\+Rotor2.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a103096588ce806b970bbc303169c3fde}\label{_bryla_geometryczna_8cpp_a103096588ce806b970bbc303169c3fde}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R3}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron1\+\_\+\+Rotor3.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a89ffdad9e2ea0df67866274330a10950}\label{_bryla_geometryczna_8cpp_a89ffdad9e2ea0df67866274330a10950}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N1\+\_\+\+R\+O\+T\+O\+R4}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron1\+\_\+\+Rotor4.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a1749db85ab4dbc2e3e1a2d1043e485d4}\label{_bryla_geometryczna_8cpp_a1749db85ab4dbc2e3e1a2d1043e485d4}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+K\+O\+R\+P\+US}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron2\+\_\+\+Korpus.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a2789441753973ed69ce77974996448ea}\label{_bryla_geometryczna_8cpp_a2789441753973ed69ce77974996448ea}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R1}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron2\+\_\+\+Rotor1.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_ada702919d023df75659eb3dd12475e29}\label{_bryla_geometryczna_8cpp_ada702919d023df75659eb3dd12475e29}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R2}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron2\+\_\+\+Rotor2.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_afa470c314a09603afc6f998dc6b90723}\label{_bryla_geometryczna_8cpp_afa470c314a09603afc6f998dc6b90723}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R3}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron2\+\_\+\+Rotor3.\+dat\char`\"{}
+\item 
+\mbox{\Hypertarget{_bryla_geometryczna_8cpp_a951e695fd984f50d2a2429ffe8d17b50}\label{_bryla_geometryczna_8cpp_a951e695fd984f50d2a2429ffe8d17b50}} 
+\#define {\bfseries P\+L\+I\+K\+\_\+\+W\+L\+A\+S\+C\+I\+W\+Y\+\_\+\+\_\+\+D\+R\+O\+N2\+\_\+\+R\+O\+T\+O\+R4}~\char`\"{}dat/Plik\+Wlasciwy\+\_\+\+Dron2\+\_\+\+Rotor4.\+dat\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+W tym pliku zdefiniowane sa funkcje i metody związane z klasa \mbox{\hyperlink{class_bryla_geometryczna}{Bryla\+Geometryczna}}. 
+

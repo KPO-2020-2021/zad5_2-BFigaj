@@ -1,0 +1,24 @@
+Start testing: Jun 16 19:12 CEST
+----------------------------------------------------------
+1/1 Testing: engine.unit_tests
+1/1 Test: engine.unit_tests
+Command: "/home/bartek/Pulpit/zad5_1-BFigaj/build/unit_tests"
+Directory: /home/bartek/Pulpit/zad5_1-BFigaj/build/tests
+"engine.unit_tests" start time: Jun 16 19:12 CEST
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.5"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases: 1 | 1 passed | 0 failed | 0 skipped
+[doctest] assertions: 6 | 6 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"engine.unit_tests" end time: Jun 16 19:12 CEST
+"engine.unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 16 19:12 CEST
