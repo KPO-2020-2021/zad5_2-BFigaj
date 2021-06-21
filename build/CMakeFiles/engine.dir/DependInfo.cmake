@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/BrylaGeometryczna.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/Dron.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/Graniastoslup6.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/Macierz3x3.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Macierz3x3.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/Prostopadloscian.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/Scena.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Scena.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/Wektor3D.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Wektor3D.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/src/lacze_do_gnuplota.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Macierz3x3.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Scena.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Wektor3D.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/lacze_do_gnuplota.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

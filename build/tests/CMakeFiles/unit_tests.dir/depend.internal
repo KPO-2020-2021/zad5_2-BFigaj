@@ -3,7 +3,7 @@
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.o
  ../include/doctest.h
- /home/bartek/Pulpit/zad5_1-BFigaj/tests/main.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/tests/main.cpp
 tests/CMakeFiles/unit_tests.dir/test1.cpp.o
  ../include/BrylaGeometryczna.hh
  ../include/Graniastoslup6.hh
@@ -13,4 +13,4 @@ tests/CMakeFiles/unit_tests.dir/test1.cpp.o
  ../include/Wektor.hh
  ../include/Wektor3D.hh
  ../include/doctest.h
- /home/bartek/Pulpit/zad5_1-BFigaj/tests/test1.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/tests/test1.cpp

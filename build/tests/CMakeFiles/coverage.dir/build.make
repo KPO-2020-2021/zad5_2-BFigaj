@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_1-BFigaj
+CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_2-BFigaj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
+CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_2-BFigaj/build
 
 # Utility rule file for coverage.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
 include tests/CMakeFiles/coverage.dir/progress.make
 
 tests/CMakeFiles/coverage:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && echo [31mCode\ coverage\ only\ available\ in\ coverage\ builds.
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && echo [32mMake\ a\ new\ build\ directory\ and\ rerun\ cmake\ with\ -DCMAKE_BUILD_TYPE=Coverage\ to\ enable\ this\ target.[m
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && echo [31mCode\ coverage\ only\ available\ in\ coverage\ builds.
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && echo [32mMake\ a\ new\ build\ directory\ and\ rerun\ cmake\ with\ -DCMAKE_BUILD_TYPE=Coverage\ to\ enable\ this\ target.[m
 
 coverage: tests/CMakeFiles/coverage
 coverage: tests/CMakeFiles/coverage.dir/build.make
@@ -68,10 +68,10 @@ tests/CMakeFiles/coverage.dir/build: coverage
 .PHONY : tests/CMakeFiles/coverage.dir/build
 
 tests/CMakeFiles/coverage.dir/clean:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/coverage.dir/cmake_clean.cmake
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/coverage.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/coverage.dir/clean
 
 tests/CMakeFiles/coverage.dir/depend:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj/tests /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build/tests /home/bartek/Pulpit/zad5_1-BFigaj/build/tests/CMakeFiles/coverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj/tests /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build/tests /home/bartek/Pulpit/zad5_2-BFigaj/build/tests/CMakeFiles/coverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/coverage.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bartek/Pulpit/zad5_1-BFigaj/tests/main.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/tests/CMakeFiles/unit_tests.dir/main.cpp.o"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/tests/test1.cpp" "/home/bartek/Pulpit/zad5_1-BFigaj/build/tests/CMakeFiles/unit_tests.dir/test1.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/tests/main.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/tests/CMakeFiles/unit_tests.dir/main.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/tests/test1.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/tests/CMakeFiles/unit_tests.dir/test1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

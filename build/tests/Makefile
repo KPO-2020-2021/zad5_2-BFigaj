@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_1-BFigaj
+CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_2-BFigaj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
+CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_2-BFigaj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles /home/bartek/Pulpit/zad5_1-BFigaj/build/tests/CMakeFiles/progress.marks
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles 0
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles /home/bartek/Pulpit/zad5_2-BFigaj/build/tests/CMakeFiles/progress.marks
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/coverage.dir/rule:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
 .PHONY : tests/CMakeFiles/coverage.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ coverage: tests/CMakeFiles/coverage.dir/rule
 
 # fast build rule for target.
 coverage/fast:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
 .PHONY : coverage/fast
 
 # Convenience name for target.
 tests/CMakeFiles/unit_tests.dir/rule:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/unit_tests.dir/rule
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/unit_tests.dir/rule
 .PHONY : tests/CMakeFiles/unit_tests.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ unit_tests: tests/CMakeFiles/unit_tests.dir/rule
 
 # fast build rule for target.
 unit_tests/fast:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
 .PHONY : unit_tests/fast
 
 main.o: main.cpp.o
@@ -157,7 +157,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.o
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -166,7 +166,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.i
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -175,7 +175,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.s
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 test1.o: test1.cpp.o
@@ -184,7 +184,7 @@ test1.o: test1.cpp.o
 
 # target to build an object file
 test1.cpp.o:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test1.cpp.o
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test1.cpp.o
 .PHONY : test1.cpp.o
 
 test1.i: test1.cpp.i
@@ -193,7 +193,7 @@ test1.i: test1.cpp.i
 
 # target to preprocess a source file
 test1.cpp.i:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test1.cpp.i
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test1.cpp.i
 .PHONY : test1.cpp.i
 
 test1.s: test1.cpp.s
@@ -202,7 +202,7 @@ test1.s: test1.cpp.s
 
 # target to generate assembly for a file
 test1.cpp.s:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test1.cpp.s
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test1.cpp.s
 .PHONY : test1.cpp.s
 
 # Help Target
@@ -233,6 +233,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

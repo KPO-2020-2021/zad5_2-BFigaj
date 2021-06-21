@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_1-BFigaj
+CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_2-BFigaj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
+CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_2-BFigaj/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/unit_tests.dir/depend.make
@@ -59,29 +59,29 @@ include tests/CMakeFiles/unit_tests.dir/flags.make
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: tests/CMakeFiles/unit_tests.dir/flags.make
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../tests/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/unit_tests.dir/main.cpp.o"
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/tests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/unit_tests.dir/main.cpp.o"
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/tests/main.cpp
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/main.cpp.i"
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/tests/main.cpp > CMakeFiles/unit_tests.dir/main.cpp.i
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/tests/main.cpp > CMakeFiles/unit_tests.dir/main.cpp.i
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/main.cpp.s"
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/tests/main.cpp -o CMakeFiles/unit_tests.dir/main.cpp.s
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/tests/main.cpp -o CMakeFiles/unit_tests.dir/main.cpp.s
 
 tests/CMakeFiles/unit_tests.dir/test1.cpp.o: tests/CMakeFiles/unit_tests.dir/flags.make
 tests/CMakeFiles/unit_tests.dir/test1.cpp.o: ../tests/test1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/unit_tests.dir/test1.cpp.o"
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/test1.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/tests/test1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/unit_tests.dir/test1.cpp.o"
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/test1.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/tests/test1.cpp
 
 tests/CMakeFiles/unit_tests.dir/test1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/test1.cpp.i"
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/tests/test1.cpp > CMakeFiles/unit_tests.dir/test1.cpp.i
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/tests/test1.cpp > CMakeFiles/unit_tests.dir/test1.cpp.i
 
 tests/CMakeFiles/unit_tests.dir/test1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/test1.cpp.s"
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/tests/test1.cpp -o CMakeFiles/unit_tests.dir/test1.cpp.s
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/tests/test1.cpp -o CMakeFiles/unit_tests.dir/test1.cpp.s
 
 # Object files for target unit_tests
 unit_tests_OBJECTS = \
@@ -90,14 +90,14 @@ unit_tests_OBJECTS = \
 
 # External object files for target unit_tests
 unit_tests_EXTERNAL_OBJECTS = \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o" \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Macierz3x3.cpp.o" \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o" \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Wektor3D.cpp.o" \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o" \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Scena.cpp.o" \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o" \
-"/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o"
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Macierz3x3.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Wektor3D.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Scena.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o"
 
 unit_tests: tests/CMakeFiles/unit_tests.dir/main.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/test1.cpp.o
@@ -111,8 +111,8 @@ unit_tests: CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o
 unit_tests: CMakeFiles/engine.dir/src/Dron.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/build.make
 unit_tests: tests/CMakeFiles/unit_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../unit_tests"
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../unit_tests"
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/unit_tests.dir/build: unit_tests
@@ -120,10 +120,10 @@ tests/CMakeFiles/unit_tests.dir/build: unit_tests
 .PHONY : tests/CMakeFiles/unit_tests.dir/build
 
 tests/CMakeFiles/unit_tests.dir/clean:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/unit_tests.dir/cmake_clean.cmake
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/unit_tests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/unit_tests.dir/clean
 
 tests/CMakeFiles/unit_tests.dir/depend:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj/tests /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build/tests /home/bartek/Pulpit/zad5_1-BFigaj/build/tests/CMakeFiles/unit_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj/tests /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build/tests /home/bartek/Pulpit/zad5_2-BFigaj/build/tests/CMakeFiles/unit_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/unit_tests.dir/depend
 

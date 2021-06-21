@@ -132,11 +132,15 @@ sys/time.h
 unistd.h
 -
 
-/home/bartek/Pulpit/zad5_1-BFigaj/tests/test1.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/tests/main.cpp
 doctest.h
-/home/bartek/Pulpit/zad5_1-BFigaj/tests/doctest.h
+/home/bartek/Pulpit/zad5_2-BFigaj/tests/doctest.h
+
+/home/bartek/Pulpit/zad5_2-BFigaj/tests/test1.cpp
+doctest.h
+/home/bartek/Pulpit/zad5_2-BFigaj/tests/doctest.h
 Prostopadloscian.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/tests/Prostopadloscian.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/tests/Prostopadloscian.hh
 Graniastoslup6.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/tests/Graniastoslup6.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/tests/Graniastoslup6.hh
 

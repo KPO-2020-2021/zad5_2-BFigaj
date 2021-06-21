@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
-  "/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake"

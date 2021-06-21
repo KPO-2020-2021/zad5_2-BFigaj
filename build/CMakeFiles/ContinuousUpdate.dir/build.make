@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_1-BFigaj
+CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_2-BFigaj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
+CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_2-BFigaj/build
 
 # Utility rule file for ContinuousUpdate.
 
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousUpdate.dir/clean:
 .PHONY : CMakeFiles/ContinuousUpdate.dir/clean
 
 CMakeFiles/ContinuousUpdate.dir/depend:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousUpdate.dir/depend
 

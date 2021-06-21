@@ -1,4 +1,4 @@
-# Install script for directory: /home/bartek/Pulpit/zad5_1-BFigaj/tests
+# Install script for directory: /home/bartek/Pulpit/zad5_2-BFigaj/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

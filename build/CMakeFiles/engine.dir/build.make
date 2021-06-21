@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_1-BFigaj
+CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_2-BFigaj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
+CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_2-BFigaj/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/engine.dir/depend.make
@@ -59,107 +59,107 @@ include CMakeFiles/engine.dir/flags.make
 
 CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o: ../src/lacze_do_gnuplota.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/lacze_do_gnuplota.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/lacze_do_gnuplota.cpp
 
 CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/lacze_do_gnuplota.cpp > CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/lacze_do_gnuplota.cpp > CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.i
 
 CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/lacze_do_gnuplota.cpp -o CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/lacze_do_gnuplota.cpp -o CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.s
 
 CMakeFiles/engine.dir/src/Macierz3x3.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/Macierz3x3.cpp.o: ../src/Macierz3x3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/engine.dir/src/Macierz3x3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Macierz3x3.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/Macierz3x3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/engine.dir/src/Macierz3x3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Macierz3x3.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.cpp
 
 CMakeFiles/engine.dir/src/Macierz3x3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Macierz3x3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/Macierz3x3.cpp > CMakeFiles/engine.dir/src/Macierz3x3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.cpp > CMakeFiles/engine.dir/src/Macierz3x3.cpp.i
 
 CMakeFiles/engine.dir/src/Macierz3x3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Macierz3x3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/Macierz3x3.cpp -o CMakeFiles/engine.dir/src/Macierz3x3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.cpp -o CMakeFiles/engine.dir/src/Macierz3x3.cpp.s
 
 CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o: ../src/Prostopadloscian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/Prostopadloscian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.cpp
 
 CMakeFiles/engine.dir/src/Prostopadloscian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Prostopadloscian.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/Prostopadloscian.cpp > CMakeFiles/engine.dir/src/Prostopadloscian.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.cpp > CMakeFiles/engine.dir/src/Prostopadloscian.cpp.i
 
 CMakeFiles/engine.dir/src/Prostopadloscian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Prostopadloscian.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/Prostopadloscian.cpp -o CMakeFiles/engine.dir/src/Prostopadloscian.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.cpp -o CMakeFiles/engine.dir/src/Prostopadloscian.cpp.s
 
 CMakeFiles/engine.dir/src/Wektor3D.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/Wektor3D.cpp.o: ../src/Wektor3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/engine.dir/src/Wektor3D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Wektor3D.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/Wektor3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/engine.dir/src/Wektor3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Wektor3D.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.cpp
 
 CMakeFiles/engine.dir/src/Wektor3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Wektor3D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/Wektor3D.cpp > CMakeFiles/engine.dir/src/Wektor3D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.cpp > CMakeFiles/engine.dir/src/Wektor3D.cpp.i
 
 CMakeFiles/engine.dir/src/Wektor3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Wektor3D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/Wektor3D.cpp -o CMakeFiles/engine.dir/src/Wektor3D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.cpp -o CMakeFiles/engine.dir/src/Wektor3D.cpp.s
 
 CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o: ../src/BrylaGeometryczna.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/BrylaGeometryczna.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.cpp
 
 CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/BrylaGeometryczna.cpp > CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.cpp > CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.i
 
 CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/BrylaGeometryczna.cpp -o CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.cpp -o CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.s
 
 CMakeFiles/engine.dir/src/Scena.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/Scena.cpp.o: ../src/Scena.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/src/Scena.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Scena.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/Scena.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/src/Scena.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Scena.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.cpp
 
 CMakeFiles/engine.dir/src/Scena.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Scena.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/Scena.cpp > CMakeFiles/engine.dir/src/Scena.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.cpp > CMakeFiles/engine.dir/src/Scena.cpp.i
 
 CMakeFiles/engine.dir/src/Scena.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Scena.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/Scena.cpp -o CMakeFiles/engine.dir/src/Scena.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.cpp -o CMakeFiles/engine.dir/src/Scena.cpp.s
 
 CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o: ../src/Graniastoslup6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/Graniastoslup6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.cpp
 
 CMakeFiles/engine.dir/src/Graniastoslup6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Graniastoslup6.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/Graniastoslup6.cpp > CMakeFiles/engine.dir/src/Graniastoslup6.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.cpp > CMakeFiles/engine.dir/src/Graniastoslup6.cpp.i
 
 CMakeFiles/engine.dir/src/Graniastoslup6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Graniastoslup6.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/Graniastoslup6.cpp -o CMakeFiles/engine.dir/src/Graniastoslup6.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.cpp -o CMakeFiles/engine.dir/src/Graniastoslup6.cpp.s
 
 CMakeFiles/engine.dir/src/Dron.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/Dron.cpp.o: ../src/Dron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/src/Dron.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Dron.cpp.o -c /home/bartek/Pulpit/zad5_1-BFigaj/src/Dron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/src/Dron.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Dron.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp
 
 CMakeFiles/engine.dir/src/Dron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Dron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_1-BFigaj/src/Dron.cpp > CMakeFiles/engine.dir/src/Dron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp > CMakeFiles/engine.dir/src/Dron.cpp.i
 
 CMakeFiles/engine.dir/src/Dron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Dron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_1-BFigaj/src/Dron.cpp -o CMakeFiles/engine.dir/src/Dron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp -o CMakeFiles/engine.dir/src/Dron.cpp.s
 
 engine: CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o
 engine: CMakeFiles/engine.dir/src/Macierz3x3.cpp.o
@@ -183,6 +183,6 @@ CMakeFiles/engine.dir/clean:
 .PHONY : CMakeFiles/engine.dir/clean
 
 CMakeFiles/engine.dir/depend:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/engine.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/engine.dir/depend
 

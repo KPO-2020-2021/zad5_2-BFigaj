@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_1-BFigaj
+CMAKE_SOURCE_DIR = /home/bartek/Pulpit/zad5_2-BFigaj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
+CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_2-BFigaj/build
 
 # Utility rule file for doc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bartek/Pulpit/zad5_1-BFigaj/build
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[1;35mGenerating API documentation with Doxygen (open ./html/index.html to view)."
-	/usr/bin/doxygen /home/bartek/Pulpit/zad5_1-BFigaj/build/Doxyfile &> doxygen.log
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[1;35mGenerating API documentation with Doxygen (open ./html/index.html to view)."
+	/usr/bin/doxygen /home/bartek/Pulpit/zad5_2-BFigaj/build/Doxyfile &> doxygen.log
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /home/bartek/Pulpit/zad5_1-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build /home/bartek/Pulpit/zad5_1-BFigaj/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bartek/Pulpit/zad5_2-BFigaj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build /home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

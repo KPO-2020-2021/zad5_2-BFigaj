@@ -7,7 +7,7 @@ CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o
  ../include/Macierz3x3.hh
  ../include/Wektor.hh
  ../include/Wektor3D.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/BrylaGeometryczna.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.cpp
 CMakeFiles/engine.dir/src/Dron.cpp.o
  ../include/BrylaGeometryczna.hh
  ../include/Dron.hh
@@ -18,7 +18,7 @@ CMakeFiles/engine.dir/src/Dron.cpp.o
  ../include/Wektor.hh
  ../include/Wektor3D.hh
  ../include/lacze_do_gnuplota.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/Dron.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp
 CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o
  ../include/BrylaGeometryczna.hh
  ../include/Graniastoslup6.hh
@@ -26,11 +26,11 @@ CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o
  ../include/Macierz3x3.hh
  ../include/Wektor.hh
  ../include/Wektor3D.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/Graniastoslup6.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.cpp
 CMakeFiles/engine.dir/src/Macierz3x3.cpp.o
  ../include/Macierz.hh
  ../include/Macierz3x3.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/Macierz3x3.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.cpp
 CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o
  ../include/BrylaGeometryczna.hh
  ../include/Macierz.hh
@@ -38,7 +38,7 @@ CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o
  ../include/Prostopadloscian.hh
  ../include/Wektor.hh
  ../include/Wektor3D.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/Prostopadloscian.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.cpp
 CMakeFiles/engine.dir/src/Scena.cpp.o
  ../include/BrylaGeometryczna.hh
  ../include/Dron.hh
@@ -50,13 +50,13 @@ CMakeFiles/engine.dir/src/Scena.cpp.o
  ../include/Wektor.hh
  ../include/Wektor3D.hh
  ../include/lacze_do_gnuplota.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/Scena.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.cpp
 CMakeFiles/engine.dir/src/Wektor3D.cpp.o
  ../include/Macierz.hh
  ../include/Macierz3x3.hh
  ../include/Wektor.hh
  ../include/Wektor3D.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/Wektor3D.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.cpp
 CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o
  ../include/lacze_do_gnuplota.hh
- /home/bartek/Pulpit/zad5_1-BFigaj/src/lacze_do_gnuplota.cpp
+ /home/bartek/Pulpit/zad5_2-BFigaj/src/lacze_do_gnuplota.cpp

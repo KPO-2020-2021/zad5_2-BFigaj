@@ -82,11 +82,11 @@ list
 vector
 -
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/BrylaGeometryczna.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.cpp
 BrylaGeometryczna.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/BrylaGeometryczna.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.hh
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Dron.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp
 iostream
 -
 fstream
@@ -94,19 +94,19 @@ fstream
 math.h
 -
 Dron.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Dron.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.hh
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Graniastoslup6.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.cpp
 Graniastoslup6.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Graniastoslup6.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.hh
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Macierz3x3.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.cpp
 Macierz3x3.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Macierz3x3.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.hh
 math.h
 -
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Prostopadloscian.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.cpp
 iostream
 -
 iomanip
@@ -116,17 +116,17 @@ fstream
 math.h
 -
 Prostopadloscian.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Prostopadloscian.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.hh
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Scena.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.cpp
 Scena.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Scena.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.hh
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Wektor3D.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.cpp
 Wektor3D.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/Wektor3D.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.hh
 
-/home/bartek/Pulpit/zad5_1-BFigaj/src/lacze_do_gnuplota.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/src/lacze_do_gnuplota.cpp
 cstdio
 -
 cstring
@@ -150,5 +150,5 @@ fstream
 limits
 -
 lacze_do_gnuplota.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/src/lacze_do_gnuplota.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/src/lacze_do_gnuplota.hh
 

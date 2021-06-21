@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17
 
 CXX_DEFINES = -DENABLE_DOCTEST_IN_LIBRARY
 
-CXX_INCLUDES = -I/home/bartek/Pulpit/zad5_1-BFigaj/build -I/home/bartek/Pulpit/zad5_1-BFigaj/include -I/home/bartek/Pulpit/zad5_1-BFigaj/external/doctest/doctest 
+CXX_INCLUDES = -I/home/bartek/Pulpit/zad5_2-BFigaj/build -I/home/bartek/Pulpit/zad5_2-BFigaj/include -I/home/bartek/Pulpit/zad5_2-BFigaj/external/doctest/doctest 
 

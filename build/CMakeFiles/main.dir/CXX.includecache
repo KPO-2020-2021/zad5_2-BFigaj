@@ -82,7 +82,7 @@ list
 vector
 -
 
-/home/bartek/Pulpit/zad5_1-BFigaj/app/main.cpp
+/home/bartek/Pulpit/zad5_2-BFigaj/app/main.cpp
 iostream
 -
 fstream
@@ -96,5 +96,5 @@ cassert
 unistd.h
 -
 Scena.hh
-/home/bartek/Pulpit/zad5_1-BFigaj/app/Scena.hh
+/home/bartek/Pulpit/zad5_2-BFigaj/app/Scena.hh
 

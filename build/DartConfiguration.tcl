@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/bartek/Pulpit/zad5_1-BFigaj
-BuildDirectory: /home/bartek/Pulpit/zad5_1-BFigaj/build
+SourceDirectory: /home/bartek/Pulpit/zad5_2-BFigaj
+BuildDirectory: /home/bartek/Pulpit/zad5_2-BFigaj/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/bartek/Pulpit/zad5_1-BFigaj"
+ConfigureCommand: "/usr/bin/cmake" "/home/bartek/Pulpit/zad5_2-BFigaj"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
