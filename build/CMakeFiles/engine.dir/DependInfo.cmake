@@ -6,8 +6,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/bartek/Pulpit/zad5_2-BFigaj/src/BrylaGeometryczna.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o"
   "/home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZDlugaGran.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZOstrymSzytem.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o"
   "/home/bartek/Pulpit/zad5_2-BFigaj/src/Graniastoslup6.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o"
   "/home/bartek/Pulpit/zad5_2-BFigaj/src/Macierz3x3.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Macierz3x3.cpp.o"
+  "/home/bartek/Pulpit/zad5_2-BFigaj/src/Plaskowyz.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Plaskowyz.cpp.o"
   "/home/bartek/Pulpit/zad5_2-BFigaj/src/Prostopadloscian.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o"
   "/home/bartek/Pulpit/zad5_2-BFigaj/src/Scena.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Scena.cpp.o"
   "/home/bartek/Pulpit/zad5_2-BFigaj/src/Wektor3D.cpp" "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Wektor3D.cpp.o"

@@ -41,6 +41,21 @@
 },
 {
   "directory": "/home/bartek/Pulpit/zad5_2-BFigaj/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/bartek/Pulpit/zad5_2-BFigaj/build -I/home/bartek/Pulpit/zad5_2-BFigaj/include -I/home/bartek/Pulpit/zad5_2-BFigaj/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZDlugaGran.cpp",
+  "file": "/home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZDlugaGran.cpp"
+},
+{
+  "directory": "/home/bartek/Pulpit/zad5_2-BFigaj/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/bartek/Pulpit/zad5_2-BFigaj/build -I/home/bartek/Pulpit/zad5_2-BFigaj/include -I/home/bartek/Pulpit/zad5_2-BFigaj/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZOstrymSzytem.cpp",
+  "file": "/home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZOstrymSzytem.cpp"
+},
+{
+  "directory": "/home/bartek/Pulpit/zad5_2-BFigaj/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/bartek/Pulpit/zad5_2-BFigaj/build -I/home/bartek/Pulpit/zad5_2-BFigaj/include -I/home/bartek/Pulpit/zad5_2-BFigaj/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/engine.dir/src/Plaskowyz.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Plaskowyz.cpp",
+  "file": "/home/bartek/Pulpit/zad5_2-BFigaj/src/Plaskowyz.cpp"
+},
+{
+  "directory": "/home/bartek/Pulpit/zad5_2-BFigaj/build",
   "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/bartek/Pulpit/zad5_2-BFigaj/build -I/home/bartek/Pulpit/zad5_2-BFigaj/include -I/home/bartek/Pulpit/zad5_2-BFigaj/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/main.dir/app/main.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/app/main.cpp",
   "file": "/home/bartek/Pulpit/zad5_2-BFigaj/app/main.cpp"
 },

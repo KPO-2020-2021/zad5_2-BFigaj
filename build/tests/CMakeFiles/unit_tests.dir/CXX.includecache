@@ -132,10 +132,6 @@ sys/time.h
 unistd.h
 -
 
-/home/bartek/Pulpit/zad5_2-BFigaj/tests/main.cpp
-doctest.h
-/home/bartek/Pulpit/zad5_2-BFigaj/tests/doctest.h
-
 /home/bartek/Pulpit/zad5_2-BFigaj/tests/test1.cpp
 doctest.h
 /home/bartek/Pulpit/zad5_2-BFigaj/tests/doctest.h

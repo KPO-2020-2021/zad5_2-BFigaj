@@ -161,6 +161,45 @@ CMakeFiles/engine.dir/src/Dron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Dron.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Dron.cpp -o CMakeFiles/engine.dir/src/Dron.cpp.s
 
+CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o: CMakeFiles/engine.dir/flags.make
+CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o: ../src/GoraZDlugaGran.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZDlugaGran.cpp
+
+CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZDlugaGran.cpp > CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.i
+
+CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZDlugaGran.cpp -o CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.s
+
+CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o: CMakeFiles/engine.dir/flags.make
+CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o: ../src/GoraZOstrymSzytem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZOstrymSzytem.cpp
+
+CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZOstrymSzytem.cpp > CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.i
+
+CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/GoraZOstrymSzytem.cpp -o CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.s
+
+CMakeFiles/engine.dir/src/Plaskowyz.cpp.o: CMakeFiles/engine.dir/flags.make
+CMakeFiles/engine.dir/src/Plaskowyz.cpp.o: ../src/Plaskowyz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/engine.dir/src/Plaskowyz.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Plaskowyz.cpp.o -c /home/bartek/Pulpit/zad5_2-BFigaj/src/Plaskowyz.cpp
+
+CMakeFiles/engine.dir/src/Plaskowyz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Plaskowyz.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/Pulpit/zad5_2-BFigaj/src/Plaskowyz.cpp > CMakeFiles/engine.dir/src/Plaskowyz.cpp.i
+
+CMakeFiles/engine.dir/src/Plaskowyz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Plaskowyz.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/Pulpit/zad5_2-BFigaj/src/Plaskowyz.cpp -o CMakeFiles/engine.dir/src/Plaskowyz.cpp.s
+
 engine: CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o
 engine: CMakeFiles/engine.dir/src/Macierz3x3.cpp.o
 engine: CMakeFiles/engine.dir/src/Prostopadloscian.cpp.o
@@ -169,6 +208,9 @@ engine: CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o
 engine: CMakeFiles/engine.dir/src/Scena.cpp.o
 engine: CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o
 engine: CMakeFiles/engine.dir/src/Dron.cpp.o
+engine: CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o
+engine: CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o
+engine: CMakeFiles/engine.dir/src/Plaskowyz.cpp.o
 engine: CMakeFiles/engine.dir/build.make
 
 .PHONY : engine

@@ -97,7 +97,10 @@ unit_tests_EXTERNAL_OBJECTS = \
 "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o" \
 "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Scena.cpp.o" \
 "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o" \
-"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o"
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Plaskowyz.cpp.o"
 
 unit_tests: tests/CMakeFiles/unit_tests.dir/main.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/test1.cpp.o
@@ -109,6 +112,9 @@ unit_tests: CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o
 unit_tests: CMakeFiles/engine.dir/src/Scena.cpp.o
 unit_tests: CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o
 unit_tests: CMakeFiles/engine.dir/src/Dron.cpp.o
+unit_tests: CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o
+unit_tests: CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o
+unit_tests: CMakeFiles/engine.dir/src/Plaskowyz.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/build.make
 unit_tests: tests/CMakeFiles/unit_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../unit_tests"

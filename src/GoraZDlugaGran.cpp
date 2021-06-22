@@ -4,7 +4,7 @@
 #include <cmath>
 #include "GoraZDlugaGran.hh"
 
-#define PLIK_WLASCIWY__GRANIOGORA  "dat/PlikWlasciwy_Graniogora0.dat"
+
 
 using namespace std;
 /*!
@@ -27,7 +27,15 @@ Wektor3D Graniogora::TransfDoUklWspRodzica(const Wektor3D& Wierz)const
     Nowe_polozenie=(Wierz*mtx)+Polozenie;
     return Nowe_polozenie;
 }
-
+/*!
+ * \brief Funkcja tworzaca Graniogore
+ * 
+ *  Funkcja tworzy graniogore w zadanym polozeniu i o zadanej skali
+ *  \param[in] polozenie wektor3D ktory traktujemy jako polozenie srodka bryly
+ *  \param[in] skala wektor3D ktory traktujemy jako skale
+ *  \param[out] true jezeli wszystko jest ok
+ *  \param[out] false jezeli nie mozna bylo otworzyc pliku
+ */
 bool Graniogora::TworzGranioGore(Wektor3D polozenie,Wektor3D skala)
 {
     Wektor3D vec;
@@ -37,7 +45,7 @@ bool Graniogora::TworzGranioGore(Wektor3D polozenie,Wektor3D skala)
     int LicznikWierzcholkow;
     StworzSkale(skala);
     Polozenie=polozenie;
-    NazwaplikuW(0,0);
+    this->NazwaplikuW("bryly_wzorcowe/szescian_na_powierzchni.dat");
     Strumien_plikowy_wej.open(WezNazwePliku_BrylaWzorcowa());
     if (!Strumien_plikowy_wej.is_open())  {
         cerr << ":(  Operacja otwarcia do wczytania korupusu \"" <<  WezNazwePliku_BrylaWzorcowa()
@@ -45,11 +53,12 @@ bool Graniogora::TworzGranioGore(Wektor3D polozenie,Wektor3D skala)
         return false;
     }
     //26 lub 27
-    Nazwa[27]=ile;
-    Strumien_plikowy_wy.open(Nazwa);
+    //Nazwa[27]=ile;
+    NazwaplikuF(Nazwa);
+    Strumien_plikowy_wy.open(WezNazwePliku_BrylaFinalna());
     if (!Strumien_plikowy_wy.is_open())  {
-        cerr << ":(  Operacja otwarcia do zapisu " <<  Nazwa
-        << "" << endl << ":(  nie powiodla sie." << endl;
+        cerr << ":(  Operacja otwarcia do zapisu \"" <<  WezNazwePliku_BrylaFinalna()
+        << "\"" << endl << ":(  nie powiodla sie." << endl;
         return false;
     }
 

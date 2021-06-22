@@ -83,7 +83,10 @@ main_EXTERNAL_OBJECTS = \
 "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o" \
 "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Scena.cpp.o" \
 "/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o" \
-"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o"
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Dron.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o" \
+"/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles/engine.dir/src/Plaskowyz.cpp.o"
 
 main: CMakeFiles/main.dir/app/main.cpp.o
 main: CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o
@@ -94,6 +97,9 @@ main: CMakeFiles/engine.dir/src/BrylaGeometryczna.cpp.o
 main: CMakeFiles/engine.dir/src/Scena.cpp.o
 main: CMakeFiles/engine.dir/src/Graniastoslup6.cpp.o
 main: CMakeFiles/engine.dir/src/Dron.cpp.o
+main: CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o
+main: CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o
+main: CMakeFiles/engine.dir/src/Plaskowyz.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/Pulpit/zad5_2-BFigaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"

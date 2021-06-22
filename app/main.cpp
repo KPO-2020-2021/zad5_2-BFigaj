@@ -26,7 +26,7 @@ int main()
   Scena Scena;
   PzG::LaczeDoGNUPlota  Lacze;
   char wybor[2]=" ";
-  int i;
+  int i,p,s,g,ktory;
   Lacze.DodajNazwePliku("bryly_wzorcowe/plaszczyzna.dat");
   Lacze.DodajNazwePliku(PLIK_WLASCIWY__DRON1_KORPUS);
   Lacze.DodajNazwePliku(PLIK_WLASCIWY__DRON1_ROTOR1);
@@ -38,7 +38,12 @@ int main()
   Lacze.DodajNazwePliku(PLIK_WLASCIWY__DRON2_ROTOR2);
   Lacze.DodajNazwePliku(PLIK_WLASCIWY__DRON2_ROTOR3);
   Lacze.DodajNazwePliku(PLIK_WLASCIWY__DRON2_ROTOR4);
-
+  Lacze.DodajNazwePliku(PLIK_WLASCIWY__PLASKOWYZ);
+  p=1;
+  Lacze.DodajNazwePliku(PLIK_WLASCIWY__SZCZYTOGORA);
+  s=1;
+  Lacze.DodajNazwePliku(PLIK_WLASCIWY__GRANIOGORA);
+  g=1;
   Lacze.ZmienTrybRys(PzG::TR_3D);
   Lacze.Inicjalizuj();  // Tutaj startuje gnuplot.
 
@@ -49,31 +54,7 @@ int main()
 
   Lacze.UstawRotacjeXZ(64,65); // Tutaj ustawiany jest widok
 
-  /*if (!PrzemiescDrona(0,20,20,0)) return 0;
-
-
-  Lacze.Rysuj();        // Teraz powinno pojawic sie okienko gnuplota
-                        // z rysunkiem, o ile istnieje plik "prostopadloscian1.pow"
-  cout << "Nacisnij ENTER, aby pokazac sciezke przelotu drona " << flush;
-  cin.ignore(10000,'\n');
-
-
-  if (!DodajTrasePrzelotu(Lacze)) return 1;
-  Lacze.Rysuj();
-
-
-  cout << "Nacisnij ENTER, aby wykonac animacje lotu drona " << flush;
-  cin.ignore(10000,'\n');
-  if (!AnimacjaLotuDrona(Lacze)) return 1;
-
-  cout << endl << "Nacisnij ENTER, aby usunac sciezke ... " << flush;
-  cin.ignore(10000,'\n');
-
-  Lacze.UsunNazwePliku(PLIK_TRASY_PRZELOTU);
-  Lacze.Rysuj();
-  
-  cout << "Nacisnij ENTER, aby zakonczyc ... " << flush;
-  cin.ignore(10000,'\n');*/
+ 
        Scena.UstawLacze(Lacze);
        Scena.Poczatek();
        while(wybor[0]!='E')/*Warunek zakonczenia programu*/
@@ -83,6 +64,7 @@ int main()
               cout << "Jakiego Drona chcesz wybrac do przelotu" << endl;
               cout << "A - Dron Alfa" << endl;
               cout << "B - Dron Beta" << endl;
+              cout << "U - Usun elementy powieszchni" << endl;
               cout << "E - Exit" << endl;
               cin >> wybor;
               switch(wybor[0])
@@ -94,6 +76,32 @@ int main()
                      case 'B':i=1;
                      Scena.WezAktywnegoDrona(i);
                      Scena.UzyjAktynegoDrona(i);
+                     break;
+                     case 'U':cout << "Jaki element usunac" << endl;
+                     if(p==1)
+                            cout << "1 - Plaskowyz" << endl;
+                     if(g==1)
+                            cout << "2 - Gora z dluga gran" << endl;
+                     if(s==1)
+                            cout << "3 - Gora z ostry szczyt" << endl;
+                     
+                     cin >> ktory;
+                     if(ktory==1)
+                     {
+                            Lacze.UsunNazwePliku(PLIK_WLASCIWY__PLASKOWYZ);
+                            p=0;
+                     }
+                     if(ktory==2)
+                     {
+                            Lacze.UsunNazwePliku(PLIK_WLASCIWY__GRANIOGORA);
+                            g=0;
+                     }
+                     if(ktory==3)
+                     {
+                            Lacze.UsunNazwePliku(PLIK_WLASCIWY__SZCZYTOGORA);
+                            s=0;
+                     }
+                     Scena.UstawLacze(Lacze);
                      break;
                      case 'E':
                      break;

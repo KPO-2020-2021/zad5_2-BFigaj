@@ -4,7 +4,9 @@
 
 #include <iostream>
 #include "Dron.hh"
-
+#include "GoraZDlugaGran.hh"
+#include "GoraZOstrymSzytem.hh"
+#include "Plaskowyz.hh"
 
 /*!
  * \brief Instancja macierzy jako Macierz3x3
@@ -13,6 +15,9 @@
  *  czyli 3. Z racji tego że chcemy pracować w 3 wymiarach w programie.
  */
 class Scena {
+    Plaskowyz TabPlask[5];
+    Graniogora TabGran[5];
+    Szczytogora TabSzcz[5];
     Dron TabDronow[2];
     PzG::LaczeDoGNUPlota Lacze;
     public:

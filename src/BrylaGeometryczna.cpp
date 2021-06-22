@@ -191,3 +191,11 @@ void BrylaGeometryczna::NazwaplikuF(int nazwa,int ktory)
         }
     }
 }
+void BrylaGeometryczna::NazwaplikuW(std::string nazwa)
+{
+    this->NazwaPliku_BrylaWzorcowa=nazwa;
+}
+void BrylaGeometryczna::NazwaplikuF(std::string nazwa)
+{
+    this->NazwaPliku_BrylaFinalna=nazwa;
+}

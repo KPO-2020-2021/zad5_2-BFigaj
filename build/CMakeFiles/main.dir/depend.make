@@ -3,9 +3,12 @@
 
 CMakeFiles/main.dir/app/main.cpp.o: ../include/BrylaGeometryczna.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Dron.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/GoraZDlugaGran.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/GoraZOstrymSzytem.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Graniastoslup6.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Macierz.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Macierz3x3.hh
+CMakeFiles/main.dir/app/main.cpp.o: ../include/Plaskowyz.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Prostopadloscian.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Scena.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Wektor.hh

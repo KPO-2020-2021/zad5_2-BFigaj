@@ -34,6 +34,18 @@ Graniastoslup6.hh
 Prostopadloscian.hh
 ../include/Prostopadloscian.hh
 
+../include/GoraZDlugaGran.hh
+iostream
+-
+BrylaGeometryczna.hh
+../include/BrylaGeometryczna.hh
+
+../include/GoraZOstrymSzytem.hh
+iostream
+-
+BrylaGeometryczna.hh
+../include/BrylaGeometryczna.hh
+
 ../include/Graniastoslup6.hh
 iostream
 -
@@ -52,6 +64,12 @@ iostream
 Macierz.hh
 ../include/Macierz.hh
 
+../include/Plaskowyz.hh
+iostream
+-
+BrylaGeometryczna.hh
+../include/BrylaGeometryczna.hh
+
 ../include/Prostopadloscian.hh
 iostream
 -
@@ -63,6 +81,12 @@ iostream
 -
 Dron.hh
 ../include/Dron.hh
+GoraZDlugaGran.hh
+../include/GoraZDlugaGran.hh
+GoraZOstrymSzytem.hh
+../include/GoraZOstrymSzytem.hh
+Plaskowyz.hh
+../include/Plaskowyz.hh
 
 ../include/Wektor.hh
 iostream

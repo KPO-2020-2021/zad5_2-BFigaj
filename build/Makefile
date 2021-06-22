@@ -631,6 +631,60 @@ src/Dron.cpp.s:
 	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Dron.cpp.s
 .PHONY : src/Dron.cpp.s
 
+src/GoraZDlugaGran.o: src/GoraZDlugaGran.cpp.o
+
+.PHONY : src/GoraZDlugaGran.o
+
+# target to build an object file
+src/GoraZDlugaGran.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.o
+.PHONY : src/GoraZDlugaGran.cpp.o
+
+src/GoraZDlugaGran.i: src/GoraZDlugaGran.cpp.i
+
+.PHONY : src/GoraZDlugaGran.i
+
+# target to preprocess a source file
+src/GoraZDlugaGran.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.i
+.PHONY : src/GoraZDlugaGran.cpp.i
+
+src/GoraZDlugaGran.s: src/GoraZDlugaGran.cpp.s
+
+.PHONY : src/GoraZDlugaGran.s
+
+# target to generate assembly for a file
+src/GoraZDlugaGran.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GoraZDlugaGran.cpp.s
+.PHONY : src/GoraZDlugaGran.cpp.s
+
+src/GoraZOstrymSzytem.o: src/GoraZOstrymSzytem.cpp.o
+
+.PHONY : src/GoraZOstrymSzytem.o
+
+# target to build an object file
+src/GoraZOstrymSzytem.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.o
+.PHONY : src/GoraZOstrymSzytem.cpp.o
+
+src/GoraZOstrymSzytem.i: src/GoraZOstrymSzytem.cpp.i
+
+.PHONY : src/GoraZOstrymSzytem.i
+
+# target to preprocess a source file
+src/GoraZOstrymSzytem.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.i
+.PHONY : src/GoraZOstrymSzytem.cpp.i
+
+src/GoraZOstrymSzytem.s: src/GoraZOstrymSzytem.cpp.s
+
+.PHONY : src/GoraZOstrymSzytem.s
+
+# target to generate assembly for a file
+src/GoraZOstrymSzytem.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/GoraZOstrymSzytem.cpp.s
+.PHONY : src/GoraZOstrymSzytem.cpp.s
+
 src/Graniastoslup6.o: src/Graniastoslup6.cpp.o
 
 .PHONY : src/Graniastoslup6.o
@@ -684,6 +738,33 @@ src/Macierz3x3.s: src/Macierz3x3.cpp.s
 src/Macierz3x3.cpp.s:
 	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Macierz3x3.cpp.s
 .PHONY : src/Macierz3x3.cpp.s
+
+src/Plaskowyz.o: src/Plaskowyz.cpp.o
+
+.PHONY : src/Plaskowyz.o
+
+# target to build an object file
+src/Plaskowyz.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Plaskowyz.cpp.o
+.PHONY : src/Plaskowyz.cpp.o
+
+src/Plaskowyz.i: src/Plaskowyz.cpp.i
+
+.PHONY : src/Plaskowyz.i
+
+# target to preprocess a source file
+src/Plaskowyz.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Plaskowyz.cpp.i
+.PHONY : src/Plaskowyz.cpp.i
+
+src/Plaskowyz.s: src/Plaskowyz.cpp.s
+
+.PHONY : src/Plaskowyz.s
+
+# target to generate assembly for a file
+src/Plaskowyz.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/Plaskowyz.cpp.s
+.PHONY : src/Plaskowyz.cpp.s
 
 src/Prostopadloscian.o: src/Prostopadloscian.cpp.o
 
@@ -844,12 +925,21 @@ help:
 	@echo "... src/Dron.o"
 	@echo "... src/Dron.i"
 	@echo "... src/Dron.s"
+	@echo "... src/GoraZDlugaGran.o"
+	@echo "... src/GoraZDlugaGran.i"
+	@echo "... src/GoraZDlugaGran.s"
+	@echo "... src/GoraZOstrymSzytem.o"
+	@echo "... src/GoraZOstrymSzytem.i"
+	@echo "... src/GoraZOstrymSzytem.s"
 	@echo "... src/Graniastoslup6.o"
 	@echo "... src/Graniastoslup6.i"
 	@echo "... src/Graniastoslup6.s"
 	@echo "... src/Macierz3x3.o"
 	@echo "... src/Macierz3x3.i"
 	@echo "... src/Macierz3x3.s"
+	@echo "... src/Plaskowyz.o"
+	@echo "... src/Plaskowyz.i"
+	@echo "... src/Plaskowyz.s"
 	@echo "... src/Prostopadloscian.o"
 	@echo "... src/Prostopadloscian.i"
 	@echo "... src/Prostopadloscian.s"

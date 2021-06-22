@@ -22,6 +22,8 @@ class BrylaGeometryczna {
   const std::string& WezNazwePliku_BrylaFinalna()const;
   void NazwaplikuW(int nazwa,int ktory);
   void NazwaplikuF(int nazwa,int ktory);
+  void NazwaplikuW(std::string nazwa);
+  void NazwaplikuF(std::string nazwa);
 
 };
 

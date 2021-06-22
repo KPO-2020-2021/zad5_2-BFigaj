@@ -81,6 +81,8 @@ void Scena::UstawLacze(PzG::LaczeDoGNUPlota& Lacze)
 void Scena::Poczatek()
 {
     Dron AktywnyDron;
+    Wektor3D pol,skal;
+    //const char* cos=TabPlask[0].WezNazwePliku_BrylaFinalna();
     for(unsigned int index;index<2;++index)
     {
         AktywnyDron=WezAktywnegoDrona(index);
@@ -88,4 +90,29 @@ void Scena::Poczatek()
         AktywnyDron.Oblicz_i_Zapisz_WspGlbDrona();
         Lacze.Rysuj();
     }
+    pol[0]=150;
+    pol[1]=105;
+    pol[2]=0;
+    skal[0]=50;
+    skal[1]=60;
+    skal[2]=15;
+    TabPlask[0].TworzPlaskowyz(pol,skal);
+    
+    pol[0]=60;
+    pol[1]=120;
+    pol[2]=0;
+    skal[0]=20;
+    skal[1]=45;
+    skal[2]=35;
+    TabSzcz[0].TworzSzczytoGore(pol,skal);
+    
+    pol[0]=100;
+    pol[1]=90;
+    pol[2]=0;
+    skal[0]=20;
+    skal[1]=80;
+    skal[2]=30;
+    TabGran[0].TworzGranioGore(pol,skal);
+    
+    Lacze.Rysuj();
 }

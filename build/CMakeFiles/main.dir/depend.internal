@@ -4,9 +4,12 @@
 CMakeFiles/main.dir/app/main.cpp.o
  ../include/BrylaGeometryczna.hh
  ../include/Dron.hh
+ ../include/GoraZDlugaGran.hh
+ ../include/GoraZOstrymSzytem.hh
  ../include/Graniastoslup6.hh
  ../include/Macierz.hh
  ../include/Macierz3x3.hh
+ ../include/Plaskowyz.hh
  ../include/Prostopadloscian.hh
  ../include/Scena.hh
  ../include/Wektor.hh
