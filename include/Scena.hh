@@ -15,9 +15,7 @@
  *  czyli 3. Z racji tego że chcemy pracować w 3 wymiarach w programie.
  */
 class Scena {
-    Plaskowyz TabPlask[5];
-    Graniogora TabGran[5];
-    Szczytogora TabSzcz[5];
+    std::list<BrylaGeometryczna*> Lst;
     Dron TabDronow[2];
     PzG::LaczeDoGNUPlota Lacze;
     public:

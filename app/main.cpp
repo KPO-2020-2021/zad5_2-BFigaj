@@ -85,6 +85,7 @@ int main()
                      if(s==1)
                             cout << "3 - Gora z ostry szczyt" << endl;
                      
+                     cout << "4 - Zaden" << endl;
                      cin >> ktory;
                      if(ktory==1)
                      {

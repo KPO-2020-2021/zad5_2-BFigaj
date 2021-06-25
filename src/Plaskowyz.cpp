@@ -37,7 +37,7 @@ Wektor3D Plaskowyz::TransfDoUklWspRodzica(const Wektor3D& Wierz)const
  *  \param[out] true jezeli wszystko jest ok
  *  \param[out] false jezeli nie mozna bylo otworzyc pliku
  */
-bool Plaskowyz::TworzPlaskowyz(Wektor3D polozenie,Wektor3D skala)
+bool Plaskowyz::Tworz(Wektor3D polozenie,Wektor3D skala)
 {
     Wektor3D vec;
     ofstream  Strumien_plikowy_wy;

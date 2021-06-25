@@ -24,6 +24,11 @@ class BrylaGeometryczna {
   void NazwaplikuF(int nazwa,int ktory);
   void NazwaplikuW(std::string nazwa);
   void NazwaplikuF(std::string nazwa);
+  virtual bool Tworz(Wektor3D polozenie,Wektor3D skala)
+  {
+    std::cout << polozenie << " , " << skala << std::endl;
+    return false;
+  }
 
 };
 

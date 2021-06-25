@@ -19,12 +19,8 @@ class Plaskowyz:public BrylaGeometryczna{
   unsigned int ile;
   
   public:
-  //Graniastoslup6(unsigned int ktory,Wektor3D polozenieD);
   Wektor3D TransfDoUklWspRodzica(const Wektor3D& Wierz)const;
-  bool TworzPlaskowyz(Wektor3D polozenie,Wektor3D skala);
-  /*Wektor3D& polozenie(const Wektor3D polozenieD);
-  double& kat(double kat);
-  double kat()const;*/
+  virtual bool Tworz(Wektor3D polozenie,Wektor3D skala)override;
 };
 
 

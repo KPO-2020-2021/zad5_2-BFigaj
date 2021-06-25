@@ -37,7 +37,7 @@ Wektor3D Szczytogora::TransfDoUklWspRodzica(const Wektor3D& Wierz)const
  *  \param[out] true jezeli wszystko jest ok
  *  \param[out] false jezeli nie mozna bylo otworzyc pliku
  */
-bool Szczytogora::TworzSzczytoGore(Wektor3D polozenie,Wektor3D skala)
+bool Szczytogora::Tworz(Wektor3D polozenie,Wektor3D skala)
 {
     Wektor3D vec;
     ofstream  Strumien_plikowy_wy;

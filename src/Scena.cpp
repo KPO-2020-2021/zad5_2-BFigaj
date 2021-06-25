@@ -82,6 +82,7 @@ void Scena::Poczatek()
 {
     Dron AktywnyDron;
     Wektor3D pol,skal;
+    unsigned int n=0;
     //const char* cos=TabPlask[0].WezNazwePliku_BrylaFinalna();
     for(unsigned int index;index<2;++index)
     {
@@ -90,29 +91,48 @@ void Scena::Poczatek()
         AktywnyDron.Oblicz_i_Zapisz_WspGlbDrona();
         Lacze.Rysuj();
     }
-    pol[0]=150;
-    pol[1]=105;
-    pol[2]=0;
-    skal[0]=50;
-    skal[1]=60;
-    skal[2]=15;
-    TabPlask[0].TworzPlaskowyz(pol,skal);
+
     
-    pol[0]=60;
-    pol[1]=120;
-    pol[2]=0;
-    skal[0]=20;
-    skal[1]=45;
-    skal[2]=35;
-    TabSzcz[0].TworzSzczytoGore(pol,skal);
-    
-    pol[0]=100;
-    pol[1]=90;
-    pol[2]=0;
-    skal[0]=20;
-    skal[1]=80;
-    skal[2]=30;
-    TabGran[0].TworzGranioGore(pol,skal);
+
+
+
+    Lst.push_back(new Plaskowyz());
+    Lst.push_back(new Szczytogora());
+    Lst.push_back(new Graniogora());
+    for(BrylaGeometryczna *wsk : Lst)
+    {
+        n+=1;
+        if(n==1)
+        {
+            pol[0]=150;
+            pol[1]=105;
+            pol[2]=0;
+            skal[0]=50;
+            skal[1]=60;
+            skal[2]=15;
+        }
+        else if(n==2)
+        {
+            pol[0]=60;
+            pol[1]=120;
+            pol[2]=0;
+            skal[0]=20;
+            skal[1]=45;
+            skal[2]=35;
+        }
+        else
+        {
+            pol[0]=100;
+            pol[1]=90;
+            pol[2]=0;
+            skal[0]=20;
+            skal[1]=80;
+            skal[2]=30;
+        }
+        if(!wsk->Tworz(pol,skal))
+            cout << "dizasta" << endl;
+    }
+
     
     Lacze.Rysuj();
 }
